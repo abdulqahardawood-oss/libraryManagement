@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Abdulqahar",
+    "email": "abdul@example.com",
+    "password": "$2b$10$9nP87o88w9X6qDegHc6W9esNqnpAZA18JWlw7CTKlkWJdzQnjgV9i",
+    "role": "STUDENT"
+  },
+  {
+    "id": 2,
+    "name": "Library Admin",
+    "email": "admin@example.com",
+    "password": "$2b$10$hoKJL/hKiLNfWFsbkntVSOAmYeJTcG4hR1POg/.2W6wk6btKKlJzq",
+    "role": "ADMIN"
+  },
+  {
+    "id": 3,
+    "name": "Test Student",
+    "email": "test@example.com",
+    "password": "$2b$10$OZiFPB1SayvehcXGOSl6vejKVJEgK.hZgOgdhEXBIkFtmxbb8qzFa",
+    "role": "STUDENT"
+  }
+]
+
+
+
+
