@@ -9,6 +9,16 @@ const app = express();
 
 app.use(express.json());
 
+const pool = require("./config/database");
+
+pool.query("SELECT NOW()")
+  .then((result) => {
+    console.log("PostgreSQL connected:", result.rows[0]);
+  })
+  .catch((error) => {
+    console.error("Database connection failed:", error.message);
+  });
+
 const bookRoutes = require("./routes/bookRoutes");
 const userRoutes = require("./routes/userRoutes");
 const authRoutes = require("./routes/authRoutes");
